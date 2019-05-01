@@ -18,7 +18,7 @@ By completing this card, you will be able to:
 
 ## Traverse a Tree
 
-1. [Binary Tree Preorder Traversal](Traverse a Tree/Binary Tree Preorder Traversal.md)
-2. [Binary Tree Inorder Traversal](Traverse a Tree/Binary Tree Inorder Traversal.md)
-3. [Binary Tree Postorder Traversal](Traverse a Tree/Binary Tree Postorder Traversal.md)
+1. [Binary Tree Preorder Traversal](./Traverse a Tree/Binary Tree Preorder Traversal.md)
+2. [Binary Tree Inorder Traversal](./Traverse a Tree/Binary Tree Inorder Traversal.md)
+3. [Binary Tree Postorder Traversal](./Traverse a Tree/Binary Tree Postorder Traversal.md)
 
