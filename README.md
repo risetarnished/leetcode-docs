@@ -2,13 +2,13 @@
 
 ## Explore
 
-- [Binary Tree](Explore/Binary Tree)
-- [Binary Search](Explore/Binary Search)
+- [Binary Tree](Explore/BinaryTree/README.md)
+- [Binary Search](Explore/BinarySearch/README.md)
 
 ## Problems
 
-- [Clone Graph](133. Clone Graph.md)
-- [Copy List with Random Pointer](138. Copy List with Random Pointer.md)
-- [Top K Frequent Elements](347. Top K Frequent Elements.md)
-- [Kth Smallest Element in a Sorted Matrix](378. Kth Smallest Element in a Sorted Matrix.md)
+- [133. Clone Graph](133CloneGraph.md)
+- [138. Copy List with Random Pointer](138CopyListwithRandomPointer.md)
+- [347. Top K Frequent Elements](347TopKFrequentElements.md)
+- [378. Kth Smallest Element in a Sorted Matrix](378KthSmallestElementinaSortedMatrix.md)
 
