@@ -16,9 +16,14 @@ By completing this card, you will be able to:
 2. Be familiar with different `traversal` methods;
 3. Use `recursion` to solve binary-tree-related problems;
 
-## Traverse a Tree
+## [Traverse a Tree](<https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/992/>)
 
 1. [Binary Tree Preorder Traversal](Traverse/Preorder.md)
 2. [Binary Tree Inorder Traversal](Traverse/Inorder.md)
 3. [Binary Tree Postorder Traversal](Traverse/Postorder.md)
 4. [Binary Tree Level Order Traversal](Traverse/LevelOrder.md)
+
+## [Solve Problems Recursively](<https://leetcode.com/explore/learn/card/data-structure-tree/17/solve-problems-recursively/534/>)
+
+1. [Maximum Depth of Binary Tree](Recursion/MaxDepth.md)
+2. [Symmetric Tree](Recursion/SymmetricTree.md)

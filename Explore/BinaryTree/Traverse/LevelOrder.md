@@ -1,6 +1,6 @@
 # Binary Tree Level Order Traversal
 
-https://leetcode.com/problems/binary-tree-level-order-traversal/[](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+[https://leetcode.com/problems/binary-tree-level-order-traversal/](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ## Description
 
