@@ -2,8 +2,9 @@
 
 ## Explore
 
-- [Binary Tree](Explore/BinaryTree/README.md)
 - [Binary Search](Explore/BinarySearch/README.md)
+- [Binary Tree](Explore/BinaryTree/README.md)
+- [Binary Search Tree](Explore/BinarySearchTree/README.md)
 
 ## Problems
 
