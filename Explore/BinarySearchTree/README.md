@@ -40,3 +40,4 @@ We also have exercises for you to find the `inorder successor` in a BST after th
 ### Problems
 
 1. [Validate Binary Search Tree](Introduction/ValidateBST.md)
+2. [Binary Search Tree Iterator](Introduction/BSTIterator/BSTIterator.md)

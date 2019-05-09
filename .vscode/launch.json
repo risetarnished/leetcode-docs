@@ -4,6 +4,20 @@
       "type": "java",
       "name": "CodeLens (Launch) - Serialization",
       "request": "launch",
+      "mainClass": "Explore.BinaryTree.Conclusion.Serialization",
+      "projectName": "LeetCode_46edb6f4"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BSTIterator",
+      "request": "launch",
+      "mainClass": "Explore.BinarySearchTree.Introduction.BSTIterator.BSTIterator",
+      "projectName": "LeetCode_46edb6f4"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Serialization",
+      "request": "launch",
       "mainClass": "Serialization"
     },
     {
