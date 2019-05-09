@@ -57,6 +57,7 @@ Submissions
         00000
         00**1**00
         0000**1**
+    - By doing so, we can avoid re-visiting and re-calculations
 - For BFS:
   - Start
     - the first cell, matrix\[0]\[0]
@@ -77,7 +78,7 @@ class Solution {
   public int numIslands(char[][] grid) {
     // Corner cases
     if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
-      return -1;
+      return 0;
     }
     int n = grid.length;
     int m = grid[0].length;
@@ -106,9 +107,9 @@ class Solution {
     while (!queue.isEmpty()) {
       Cell curr = queue.poll();
       // Check all four neighbors
-      for (int i = 0; i < dirs.length; i++) {
-        int nextRow = row + dirs[i][0];
-        int nextCol = col + dirs[i][1];
+      for (int[] dir : dirs) {
+        int nextRow = curr.row + dir[0];
+        int nextCol = curr.col + dir[1];
         if (!inBound(grid, nextRow, nextCol)) {
           continue;
         }
@@ -141,3 +142,13 @@ class Cell {
 }
 ```
 
+### Complexity
+
+- Time
+  - Because we mark the connected neighboring islands to water, we avoid re-visiting
+  - Therefore, each cell is visited onces and only the start cells of islands, whether the island is a single-cell island or a connected-cells island, is processed and all connected island cells are converted to 0's
+  - O(n * m)
+- Space
+  - The queue is used to store the next visiting cells (the neighboring island cells)
+  - In the worst case where the entire grid consists of islands, the size of the queue will be n * m
+  - O(n * m)
