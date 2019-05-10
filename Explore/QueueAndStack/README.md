@@ -10,6 +10,15 @@
 
 https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1376/
 
-## Problems
+### Problems
 
 - [Number of Islands](NumberOfIslands.md)
+- [Open the Lock](OpenTheLock.md)
+
+## Stack: Last-in-first-out Data Structure
+
+[https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1369/](https://leetcode.com/explore/learn/card/queue-stack/230/usage-stack/1369/)
+
+### Problems
+
+- [Min Stack](MinStack.md)
