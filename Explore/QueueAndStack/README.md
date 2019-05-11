@@ -22,3 +22,5 @@ https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-qu
 ### Problems
 
 - [Min Stack](MinStack.md)
+- [Valid Parentheses](ValidParentheses.md)
+- [Daily Temperatures](DailyTemperatures.md)
