@@ -27,18 +27,19 @@ Other Binary Search Defintions:
 
 #### Template I
 
-- [Binary Search](BinarySearch.md)
-- [Sqrt(x)](SqrtX.md)
-- [Guess Number Higher or Lower](GuessNumber.md)
+1. [Binary Search](BinarySearch.md)
+2. [Sqrt(x)](SqrtX.md)
+3. [Guess Number Higher or Lower](GuessNumber.md)
+4. [Search in Rotated Sorted Array](SearchRotated.md)
 
 #### Template II
 
-- [First Bad Version](FirstBadVersion.md)
-- [Find Peak Element](PeakElement.md)
-- [Find Minimum in Rotated Sorted Array](MinRotatedSortedArray.md)
+1. [First Bad Version](FirstBadVersion.md)
+2. [Find Peak Element](PeakElement.md)
+3. [Find Minimum in Rotated Sorted Array](MinRotated.md)
 
 #### Template III
 
-- [Search for a Range](SearchRange.md)
-- [Find Peak Element](PeakElement.md)
-- [Find K Closest Elements](KClosest.md)
+1. [Search for a Range](SearchRange.md)
+2. [Find Peak Element](PeakElement.md)
+3. [Find K Closest Elements](KClosest.md)
