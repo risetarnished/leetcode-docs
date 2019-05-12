@@ -23,23 +23,25 @@ Other Binary Search Defintions:
 
 ## Problems
 
-### Binary Search
-
-#### Template I
+### Template I
 
 1. [Binary Search](BinarySearch.md)
 2. [Sqrt(x)](SqrtX.md)
 3. [Guess Number Higher or Lower](GuessNumber.md)
 4. [Search in Rotated Sorted Array](SearchRotated.md)
 
-#### Template II
+### Template II
 
 1. [First Bad Version](FirstBadVersion.md)
 2. [Find Peak Element](PeakElement.md)
 3. [Find Minimum in Rotated Sorted Array](MinRotated.md)
 
-#### Template III
+### Template III
 
 1. [Search for a Range](SearchRange.md)
 2. [Find Peak Element](PeakElement.md)
 3. [Find K Closest Elements](KClosest.md)
+
+### Others
+
+1. [Median of Two Sorted Arrays](MedianTwoArrays.md)
