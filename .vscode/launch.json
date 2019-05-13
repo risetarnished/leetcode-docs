@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Solution",
+      "request": "launch",
+      "mainClass": "Explore.LinkedList.Classic.PalindromeLinkedList.Solution",
+      "projectName": "LeetCode_46edb6f4"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Serialization",
       "request": "launch",
       "mainClass": "Explore.BinaryTree.Conclusion.Serialization",
