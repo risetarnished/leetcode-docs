@@ -11,7 +11,7 @@ Each node in a singly-linked list contains not only the value but also `a refere
 
 ![img](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/12/screen-shot-2018-04-12-at-152754.png)
 
-- [Design Linked List](SinglyLinkedList/DesignLinkedList.md)
+- [Design a Singly Linked List](SinglyLinkedList/DesignLinkedList.md)
 
 
 ## Two-Pointer in Linked List
@@ -27,3 +27,23 @@ Each node in a singly-linked list contains not only the value but also `a refere
 1. [Reverse Linked List](Classic/Reverse.md)
 2. [Remove Linked List Elements](Classic/RemoveElements.md)
 3. [Palindrome Linked List](Classic/PalindromeLinkedList/PalindromeLinkedList.md)
+
+
+## Doubly Linked List
+
+- [Design a Doubly Linked List]()
+
+
+## Summary
+
+### Comparisons
+
+Here we provide a comparison of `time complexity` between the linked list and other data structures including [array](https://leetcode.com/explore/learn/card/array-and-string/), queue and stack:
+
+![img](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/29/screen-shot-2018-04-28-at-174531.png)
+
+After this comparison, it is not difficult to come up with our conclusion:
+
+> If you need to add or delete a node frequently, a linked list could be a good choice.
+>
+> If you need to access an element by index often, an array might be a better choice than a linked list.
