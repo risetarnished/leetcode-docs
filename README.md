@@ -6,6 +6,7 @@
 - [Binary Tree](Explore/BinaryTree/README.md)
 - [Binary Search Tree](Explore/BinarySearchTree/README.md)
 - [Queue & Stack](Explore/QueueAndStack/README.md)
+- [Linked List](Explore/LinkedList/README.md)
 
 ## Problems
 
