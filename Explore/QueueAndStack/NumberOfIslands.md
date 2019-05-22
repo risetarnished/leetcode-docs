@@ -76,65 +76,49 @@ Submissions
 ```java
 class Solution {
   public int numIslands(char[][] grid) {
-    // Corner cases
+    // Write your solution here
     if (grid == null || grid.length == 0 || grid[0] == null || grid[0].length == 0) {
       return 0;
     }
-    int n = grid.length;
-    int m = grid[0].length;
     int islands = 0;
-    // Do a BFS on the grid for each cell
-    for (int i = 0; i < n; i++) {
-      for (int j = 0; j < m; j++) {
-        // Check the cell if it is an island
+    for (int i = 0; i < grid.length; i++) {
+      for (int j = 0; j < grid[0].length; j++) {
         if (grid[i][j] == '1') {
-          // Mark its four (at most) neighbors to water
-          markNeighbors(grid, i, j);
+          markIslands(grid, i, j);
           islands++;
         }
       }
     }
     return islands;
   }
-  
-  private void markNeighbors(char[][] grid, int row, int col) {
-    // Four directions: up, down, left, right
+
+  private void markIslands(char[][] grid, int row, int col) {
     int[][] dirs = new int[][] {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-    // Use a Queue to store the visiting cells
     Queue<Cell> queue = new ArrayDeque<>();
-    Cell first = new Cell(row, col);
-    queue.offer(first);
+    queue.offer(new Cell(row, col));
     while (!queue.isEmpty()) {
       Cell curr = queue.poll();
+      // Mark the land to something else to avoid re-visiting
+      grid[curr.row][curr.col] = '2';
       // Check all four neighbors
       for (int[] dir : dirs) {
         int nextRow = curr.row + dir[0];
         int nextCol = curr.col + dir[1];
-        if (!inBound(grid, nextRow, nextCol)) {
-          continue;
-        }
-        Cell neighbor = new Cell(nextRow, nextCol);
-        // Set the neighbor to water if it is an island to avoid re-visiting and re-calculation
-        if (grid[nextRow][nextCol] == '1') {
-          grid[nextRow][nextCol] = '0';
-          // Offer the neighbor to the queue because it was an island and we need to
-          // check until all of the neighbors are water
-          queue.offer(neighbor);
+        if (isInBound(grid, nextRow, nextCol) && grid[nextRow][nextCol] == '1') {
+          queue.offer(new Cell(nextRow, nextCol));
         }
       }
     }
   }
   
-  private boolean inBound(char[][] grid, int row, int col) {
-    return row >= 0 && row < grid.length && 
-           col >= 0 && col < grid[0].length;
+  private boolean isInBound(char[][] grid, int row, int col) {
+    return row >= 0 && row < grid.length && col >= 0 && col < grid[0].length;
   }
 }
 
 class Cell {
   int row;
   int col;
-  
   Cell(int row, int col) {
     this.row = row;
     this.col = col;
