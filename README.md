@@ -2,11 +2,11 @@
 
 ## Explore
 
-- [Binary Search](docs/explore/BinarySearch/README.md)
-- [Binary Tree](docs/explore/BinaryTree/README.md)
-- [Binary Search Tree](docs/explore/BinarySearchTree/README.md)
-- [Queue & Stack](docs/explore/QueueAndStack/README.md)
-- [Linked List](docs/explore/LinkedList/README.md)
+- [Binary Search](docs/explore/binary-search/README.md)
+- [Binary Tree](docs/explore/binary-tree/README.md)
+- [Binary Search Tree](docs/explore/binary-search-tree/README.md)
+- [Queue & Stack](docs/explore/queue-and-stack/README.md)
+- [Linked List](docs/explore/linked-list/README.md)
 
 ## Problems
 
