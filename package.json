@@ -1,14 +1,14 @@
 {
-  "name": "leetcode",
+  "name": "leetcode-docs",
   "version": "1.0.0",
-  "description": "In depth analysis of coding practice problems on LeetCode",
-  "homepage": "https://github.com/publicclassoverflow/leetcode#readme",
+  "description": "Documentation of in-depth analysis of coding problems on LeetCode",
+  "homepage": "https://github.com/publicclassoverflow/leetcode-docs#readme",
   "bugs": {
-    "url": "https://github.com/publicclassoverflow/leetcode/issues"
+    "url": "https://github.com/publicclassoverflow/leetcode-docs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/publicclassoverflow/leetcode.git"
+    "url": "git+https://github.com/publicclassoverflow/leetcode-docs.git"
   },
   "license": "MIT",
   "author": "MZ",
@@ -27,10 +27,10 @@
   "devDependencies": {
     "git-branch-is": "^3.1.0",
     "husky": "~4.2.5",
-    "lint-staged": "~10.2.11",
-    "prettier": "~2.0.5",
-    "prettier-plugin-java": "~0.8.0",
-    "prettier-plugin-package": "~1.0.0",
-    "prettier-plugin-packagejson": "~2.2.5"
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "prettier-plugin-java": "^0.8.0",
+    "prettier-plugin-package": "^1.0.0",
+    "prettier-plugin-packagejson": "^2.2.5"
   }
 }

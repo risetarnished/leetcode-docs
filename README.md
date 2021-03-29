@@ -1,4 +1,4 @@
-# Coding Practice on [LeetCode](https://www.leetcode.com)
+# Documentation of Coding Practice on [LeetCode](https://www.leetcode.com)
 
 ## Explore
 
